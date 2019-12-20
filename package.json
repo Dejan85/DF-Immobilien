@@ -1,5 +1,6 @@
 {
-  "name": "x",
+  "homepage": "http://Dejan85.github.io/dfimmobilien",
+  "name": "dfimmobilien",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
