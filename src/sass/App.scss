@@ -1,14 +1,25 @@
 // VARIABLES
 @import "./components/variables/fontFamily";
 @import "./components/variables/colors";
+
 // MIXINS
 @import "./components/mixins/respond";
 @import "./components/mixins/container";
+
 // BASE
 @import "./components/base/base";
 @import "./components/base/utill";
+
 // LAYOUT
 @import "./components/layout/home/home";
 @import "./components/layout/home/header";
+@import "./components/layout/about/about";
+@import "./components/layout/services/services";
+@import "./components/layout/offer/offer";
+
 // TYPOGRAPFY
 @import "./components/typograpfy/home/headerTypograpfy";
+@import "./components/typograpfy/home/homeTypograpfy";
+@import "./components/typograpfy/about/aboutTypograpfy";
+@import "./components/typograpfy/services/servicesTypograpfy";
+@import "./components/typograpfy/offer/offerTypograpfy";

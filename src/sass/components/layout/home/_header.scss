@@ -1,24 +1,29 @@
 .header {
+  position: fixed;
   box-shadow: rgba(211, 211, 211, 0.75) -1px 0px 5px;
+  width: 100%;
+  background: white;
+  z-index: 5;
 
   &__content {
-    @include container;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    @include container;
   }
 
   &__nav {
     display: flex;
     // padding: 2rem 0;
     &--li {
+      display: flex;
       list-style-type: none;
-      padding: 2rem 0.4rem;
+      // padding: 2rem 0.4rem;
       cursor: pointer;
       transition: all 0.5s;
 
       &:hover {
-        background: $color-primary;
+        background: $color-primary3;
 
         a {
           color: white;
@@ -26,8 +31,7 @@
       }
 
       a {
-        display: flex;
-        padding: 0.7rem 0.7rem;
+        padding: 2.9rem 1rem;
         transition: all 0.2s ease-in-out;
       }
     }

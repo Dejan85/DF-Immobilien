@@ -1,7 +1,5 @@
 @mixin container {
-  display: flex;
-  justify-content: space-between;
-  max-width: 130rem;
+  max-width: 120rem;
   width: 100%;
   margin: 0 auto;
   padding: 0 1rem;
