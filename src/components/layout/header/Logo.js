@@ -15,7 +15,7 @@ const Logo = () => {
 
   return (
     <div className="header__logo">
-      <img src={images.logo3} alt="logo" style={{ width: "15rem" }}></img>
+      <img src={images.logo3} alt="logo" style={{ width: "30rem" }}></img>
     </div>
   );
 };
