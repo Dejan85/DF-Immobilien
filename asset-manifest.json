@@ -1,31 +1,26 @@
 {
   "files": {
-    "main.css": "/dfimmobilien/static/css/main.c4b6c2e4.chunk.css",
-    "main.js": "/dfimmobilien/static/js/main.d6a531e6.chunk.js",
-    "main.js.map": "/dfimmobilien/static/js/main.d6a531e6.chunk.js.map",
+    "main.css": "/dfimmobilien/static/css/main.398b7602.chunk.css",
+    "main.js": "/dfimmobilien/static/js/main.08b55f5d.chunk.js",
+    "main.js.map": "/dfimmobilien/static/js/main.08b55f5d.chunk.js.map",
     "runtime-main.js": "/dfimmobilien/static/js/runtime-main.4b087879.js",
     "runtime-main.js.map": "/dfimmobilien/static/js/runtime-main.4b087879.js.map",
-    "static/js/2.4feb30c3.chunk.js": "/dfimmobilien/static/js/2.4feb30c3.chunk.js",
-    "static/js/2.4feb30c3.chunk.js.map": "/dfimmobilien/static/js/2.4feb30c3.chunk.js.map",
+    "static/js/2.b219c974.chunk.js": "/dfimmobilien/static/js/2.b219c974.chunk.js",
+    "static/js/2.b219c974.chunk.js.map": "/dfimmobilien/static/js/2.b219c974.chunk.js.map",
     "index.html": "/dfimmobilien/index.html",
-    "precache-manifest.86d93af5db6f8e2472e36f102a09c59d.js": "/dfimmobilien/precache-manifest.86d93af5db6f8e2472e36f102a09c59d.js",
+    "precache-manifest.1b000b2f511fb65f6060ede6601a9f04.js": "/dfimmobilien/precache-manifest.1b000b2f511fb65f6060ede6601a9f04.js",
     "service-worker.js": "/dfimmobilien/service-worker.js",
-    "static/css/main.c4b6c2e4.chunk.css.map": "/dfimmobilien/static/css/main.c4b6c2e4.chunk.css.map",
-    "static/js/2.4feb30c3.chunk.js.LICENSE": "/dfimmobilien/static/js/2.4feb30c3.chunk.js.LICENSE",
-    "static/media/1.jpg": "/dfimmobilien/static/media/1.eb20aa9c.jpg",
-    "static/media/2.jpg": "/dfimmobilien/static/media/2.fdf14333.jpg",
-    "static/media/3.jpg": "/dfimmobilien/static/media/3.865206c8.jpg",
-    "static/media/4.jpg": "/dfimmobilien/static/media/4.af3055e6.jpg",
-    "static/media/5.jpg": "/dfimmobilien/static/media/5.ede7325f.jpg",
-    "static/media/6.jpg": "/dfimmobilien/static/media/6.c696025b.jpg",
-    "static/media/7.jpg": "/dfimmobilien/static/media/7.9cd93b33.jpg",
-    "static/media/8.jpg": "/dfimmobilien/static/media/8.ee60bf7d.jpg",
-    "static/media/9.jpg": "/dfimmobilien/static/media/9.9bcf56e8.jpg"
+    "static/css/main.398b7602.chunk.css.map": "/dfimmobilien/static/css/main.398b7602.chunk.css.map",
+    "static/js/2.b219c974.chunk.js.LICENSE": "/dfimmobilien/static/js/2.b219c974.chunk.js.LICENSE",
+    "static/media/10.jpg": "/dfimmobilien/static/media/10.8097e81c.jpg",
+    "static/media/11.jpg": "/dfimmobilien/static/media/11.39ef18c3.jpg",
+    "static/media/12.jpg": "/dfimmobilien/static/media/12.42175a8b.jpg",
+    "static/media/logo3.jpg": "/dfimmobilien/static/media/logo3.1a35b799.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.4b087879.js",
-    "static/js/2.4feb30c3.chunk.js",
-    "static/css/main.c4b6c2e4.chunk.css",
-    "static/js/main.d6a531e6.chunk.js"
+    "static/js/2.b219c974.chunk.js",
+    "static/css/main.398b7602.chunk.css",
+    "static/js/main.08b55f5d.chunk.js"
   ]
 }
