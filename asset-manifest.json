@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/dfimmobilien/static/css/main.95d4d3c1.chunk.css",
-    "main.js": "/dfimmobilien/static/js/main.c8518fe6.chunk.js",
-    "main.js.map": "/dfimmobilien/static/js/main.c8518fe6.chunk.js.map",
+    "main.css": "/dfimmobilien/static/css/main.0ceab6ab.chunk.css",
+    "main.js": "/dfimmobilien/static/js/main.e9f8c7f1.chunk.js",
+    "main.js.map": "/dfimmobilien/static/js/main.e9f8c7f1.chunk.js.map",
     "runtime-main.js": "/dfimmobilien/static/js/runtime-main.4b087879.js",
     "runtime-main.js.map": "/dfimmobilien/static/js/runtime-main.4b087879.js.map",
-    "static/js/2.b219c974.chunk.js": "/dfimmobilien/static/js/2.b219c974.chunk.js",
-    "static/js/2.b219c974.chunk.js.map": "/dfimmobilien/static/js/2.b219c974.chunk.js.map",
+    "static/js/2.2fa37eb6.chunk.js": "/dfimmobilien/static/js/2.2fa37eb6.chunk.js",
+    "static/js/2.2fa37eb6.chunk.js.map": "/dfimmobilien/static/js/2.2fa37eb6.chunk.js.map",
     "index.html": "/dfimmobilien/index.html",
-    "precache-manifest.d967b7205607fcb2441c75f0edb09c84.js": "/dfimmobilien/precache-manifest.d967b7205607fcb2441c75f0edb09c84.js",
+    "precache-manifest.ae7ff6dec61610302b97000eb3cd4620.js": "/dfimmobilien/precache-manifest.ae7ff6dec61610302b97000eb3cd4620.js",
     "service-worker.js": "/dfimmobilien/service-worker.js",
-    "static/css/main.95d4d3c1.chunk.css.map": "/dfimmobilien/static/css/main.95d4d3c1.chunk.css.map",
-    "static/js/2.b219c974.chunk.js.LICENSE": "/dfimmobilien/static/js/2.b219c974.chunk.js.LICENSE",
+    "static/css/main.0ceab6ab.chunk.css.map": "/dfimmobilien/static/css/main.0ceab6ab.chunk.css.map",
+    "static/js/2.2fa37eb6.chunk.js.LICENSE": "/dfimmobilien/static/js/2.2fa37eb6.chunk.js.LICENSE",
     "static/media/10.jpg": "/dfimmobilien/static/media/10.8097e81c.jpg",
     "static/media/11.jpg": "/dfimmobilien/static/media/11.39ef18c3.jpg",
-    "static/media/12.jpg": "/dfimmobilien/static/media/12.42175a8b.jpg",
+    "static/media/12.jpg": "/dfimmobilien/static/media/12.20754c18.jpg",
     "static/media/logo3.jpg": "/dfimmobilien/static/media/logo3.1a35b799.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.4b087879.js",
-    "static/js/2.b219c974.chunk.js",
-    "static/css/main.95d4d3c1.chunk.css",
-    "static/js/main.c8518fe6.chunk.js"
+    "static/js/2.2fa37eb6.chunk.js",
+    "static/css/main.0ceab6ab.chunk.css",
+    "static/js/main.e9f8c7f1.chunk.js"
   ]
 }
