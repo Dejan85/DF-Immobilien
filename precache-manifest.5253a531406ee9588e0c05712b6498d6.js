@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2d3b378996eae6311218bf657ba0cf84",
+    "revision": "b58845d93b371e5568cb4982bbd669bc",
     "url": "/dfimmobilien/index.html"
   },
   {
-    "revision": "1f3b6d4b8d40ddafce86",
-    "url": "/dfimmobilien/static/css/main.c140d17c.chunk.css"
+    "revision": "3663f078e8ca00089193",
+    "url": "/dfimmobilien/static/css/main.3a44ce5c.chunk.css"
   },
   {
     "revision": "9fbb9556915c48971026",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dfimmobilien/static/js/2.b219c974.chunk.js.LICENSE"
   },
   {
-    "revision": "1f3b6d4b8d40ddafce86",
+    "revision": "3663f078e8ca00089193",
     "url": "/dfimmobilien/static/js/main.ec162779.chunk.js"
   },
   {
