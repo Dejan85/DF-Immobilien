@@ -1,12 +1,12 @@
 .home {
   display: flex;
-  height: 95rem;
-  margin-top: 8rem;
+  // margin-top: 8rem;
+  height: 88.7vh;
 
   &__background2 {
     // position: absolute;
     // width: 46%;
-    width: 57%;
+    width: 51%;
     height: 100%;
     background: $color-primary3;
     background-repeat: no-repeat !important;
@@ -17,8 +17,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    // width: 43%;
-    width: 917px;
+    width: 49%;
+    // width: 917px;
     height: 100%;
     background-attachment: fixed !important;
     background-repeat: no-repeat !important;

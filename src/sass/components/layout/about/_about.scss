@@ -2,8 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 8rem 0 0 0;
-  height: 100vh;
+  height: 88.7vh;
 
   &__content {
     display: flex;
@@ -12,19 +11,42 @@
   }
 
   &__left {
-    width: 907px;
-    // height: 90rem;
-    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 46%;
+    background: $color-primary3;
     background-size: cover !important;
     background-repeat: no-repeat !important;
+  }
+
+  &__frame {
+    position: absolute;
+    border: 1rem solid #f2f2f2;
+    width: 55rem;
+    height: 60rem;
+    margin: 7rem 0 0 5rem;
+    z-index: 1;
+  }
+
+  &__img {
+    width: 55rem;
+    // height: 60rem;
+    margin: 0 0 0 1rem;
+    z-index: 2;
   }
 
   &__right {
     display: flex;
     flex-direction: column;
     width: auto;
+    width: 54%;
     justify-content: center;
     padding: 0 0 0 7rem;
+
+    background-size: cover !important;
+    background-repeat: no-repeat;
   }
 
   &__h1 {

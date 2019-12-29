@@ -14,16 +14,16 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route exact path="/dfimmobilien">
+          <Route exact path="/dfimmobilien/home">
             <Home />
           </Route>
-          <Route exact path="/dfimmobilien/about">
+          <Route exact path="/dfimmobilien/überuns">
             <About />
           </Route>
-          <Route exact path="/dfimmobilien/services">
+          <Route exact path="/dfimmobilien/unsereleistungen">
             <Services />
           </Route>
-          <Route exact path="/dfimmobilien/anbieten">
+          <Route exact path="/dfimmobilien/grundstückanbieten">
             <Offer />
           </Route>
         </Switch>

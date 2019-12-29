@@ -1,5 +1,4 @@
 .header {
-  position: fixed;
   box-shadow: rgba(211, 211, 211, 0.75) -1px 0px 5px;
   width: 100%;
   background: white;
@@ -9,23 +8,52 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    @include container;
   }
 
   &__logo {
-    padding: 0 0 0 33rem;
+    display: flex;
+    align-items: center;
+    width: 49%;
+    padding: 0 0 0 1rem;
   }
 
   &__nav {
     display: flex;
-    // padding: 0 8.5rem 0 0;
+    width: 51%;
+
     &--li {
       display: flex;
+      justify-content: center;
+      align-items: center;
       list-style-type: none;
-      // padding: 2rem 0.4rem;
-      cursor: pointer;
-      transition: all 0.5s;
 
+      &:nth-of-type(1) {
+        flex: 1;
+      }
+
+      &:nth-of-type(2) {
+        flex: 1;
+      }
+
+      &:nth-of-type(3) {
+        flex: 2;
+      }
+
+      &:nth-of-type(4) {
+        flex: 2;
+      }
+
+      &:nth-of-type(5) {
+        flex: 2;
+      }
+
+      &:nth-of-type(6) {
+        flex: 1;
+      }
+
+      &:nth-of-type(7) {
+        flex: 1;
+      }
       &:hover {
         background: $color-primary3;
 
@@ -35,9 +63,8 @@
       }
 
       a {
-        // padding: 2.9rem 1rem;
-        padding: 4rem 2.9rem;
-        transition: all 0.2s ease-in-out;
+        width: 100%;
+        padding: 4rem 0;
       }
     }
   }
