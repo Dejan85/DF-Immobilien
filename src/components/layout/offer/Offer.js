@@ -3,6 +3,8 @@ import React from "react";
 // images
 import img from "../../../sass/images/17_mask.jpg";
 import img2 from "../../../sass/images/15_mask.jpg";
+import img3 from "../../../sass/images/17_blur.jpg";
+import img4 from "../../../sass/images/17_blur2.jpg";
 
 const Offer = () => {
   return (
@@ -11,9 +13,7 @@ const Offer = () => {
         <h1 className="offer__h1">Grundstück Anbieten</h1>
       </div>
       <div className="offer__content">
-        <div className="offer__form">form</div>
-        {/* <div className="offer__line"></div> */}
-        <div className="offer__text" style={{ background: `url(${img2})` }}>
+        <div className="offer__text">
           <h2 className="offer__h2">Sie wollen ein Grundstück verkaufen?</h2>
           <p className="offer__p">
             Sie sind lmmobilieneigentümer und wollen ein Grundstück in Nümberg,
@@ -80,6 +80,34 @@ const Offer = () => {
             Ein persönlicher Gesprächstermin kann jederzeit vereinbart werden.
           </p>
         </div>
+        <div className="offer__line"></div>
+        <form className="offer__form">
+          <div className="offer__inputHolder">
+            <label className="offer__label">Name :</label>
+            <input className="offer__input" />
+          </div>
+          <div className="offer__inputHolder">
+            <label className="offer__label">Adresse :</label>
+            <input className="offer__input" />
+          </div>
+          <div className="offer__inputHolder">
+            <label className="offer__label">Telefon :</label>
+            <input className="offer__input" />
+          </div>
+          <div className="offer__inputHolder">
+            <label className="offer__label">Email :</label>
+            <input className="offer__input" />
+          </div>
+          <div className="offer__inputHolder">
+            <label className="offer__label">Objektadresse :</label>
+            <input className="offer__input" />
+          </div>
+          <div className="offer__inputHolder">
+            <label className="offer__label">Nachricht :</label>
+            <textarea className="offer__input" rows="30" />
+          </div>
+          <button className="offer__btn">Send</button>
+        </form>
       </div>
     </div>
   );
