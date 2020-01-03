@@ -1,11 +1,67 @@
 .services {
-  h1 {
-    font-family: $font-1;
-    font-size: 4rem;
+  &__h1 {
+    color: white;
+    font-family: $font-2;
+    // font-size: 4rem;
+    font-size: 5rem;
+    font-weight: 600;
   }
 
-  p {
+  &__h2 {
+    color: $gray;
+    font-family: $font-2;
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 1.4;
+    text-align: center;
+  }
+
+  &__righttext &__h2 {
+    color: white;
+  }
+
+  &__h3 {
+    color: $gray;
+    font-family: $font-1;
+    font-size: 3rem;
+    font-weight: 600;
+
+    &:nth-child(3) {
+      color: white;
+    }
+
+    &:nth-child(5) {
+      color: white;
+    }
+  }
+
+  &__h4 {
+    // color: $gray;
+    // color: $color-primary2;
+    color: white;
+    font-family: $font-1;
+    font-size: 2.8rem;
+    line-height: 1.2;
+    font-weight: 600;
+  }
+
+  &__p {
+    color: $gray;
+    font-family: $font-2;
+    font-size: 1.9rem;
+  }
+
+  &__li {
+    list-style-type: none;
+    // color: $gray;
+    color: white;
     font-family: $font-1;
     font-size: 2rem;
+
+    i {
+      // color: $color-primary3;
+      // color: white;
+      color: $color-green;
+    }
   }
 }

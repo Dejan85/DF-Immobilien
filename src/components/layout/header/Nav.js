@@ -1,10 +1,98 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import React, { useState } from "react";
+// import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 
 const Nav = () => {
+  const { duration } = useState(500);
+
   return (
     <ul className="header__nav">
       <li className="header__nav--li">
+        <Link
+          activeClass="active"
+          to="home"
+          spy={true}
+          smooth={"true"}
+          duration={duration}
+          offset={-100}
+        >
+          Home
+        </Link>
+      </li>
+      <li className="header__nav--li">
+        <Link
+          activeClass="active"
+          to="about"
+          spy={true}
+          smooth={"true"}
+          duration={duration}
+          offset={-100}
+        >
+          Über uns
+        </Link>
+      </li>
+      <li className="header__nav--li">
+        <Link
+          activeClass="active"
+          to="services"
+          spy={true}
+          smooth={"true"}
+          duration={duration}
+          offset={-100}
+        >
+          Unsere leistungen
+        </Link>
+      </li>
+      <li className="header__nav--li">
+        <Link
+          activeClass="active"
+          to="/dfimmobilien"
+          spy={true}
+          smooth={"true"}
+          duration={duration}
+          offset={0}
+        >
+          Aktuelle angebote
+        </Link>
+      </li>
+      <li className="header__nav--li">
+        <Link
+          activeClass="active"
+          to="offer"
+          spy={true}
+          smooth={"true"}
+          duration={duration}
+          offset={-100}
+        >
+          Immobilienkauf
+        </Link>
+      </li>
+      <li className="header__nav--li">
+        <Link
+          activeClass="active"
+          to="referenzen"
+          spy={true}
+          smooth={"true"}
+          duration={duration}
+          offset={0}
+        >
+          Referenzen
+        </Link>
+      </li>
+      <li className="header__nav--li">
+        <Link
+          activeClass="active"
+          to="/dfimmobilien"
+          spy={true}
+          smooth={"true"}
+          duration={duration}
+          offset={0}
+        >
+          Impressum
+        </Link>
+      </li>
+
+      {/* <li className="header__nav--li">
         <NavLink
           activeStyle={{
             color: "white",
@@ -87,7 +175,7 @@ const Nav = () => {
         >
           Impressum
         </NavLink>
-      </li>
+      </li> */}
     </ul>
   );
 };

@@ -20,7 +20,7 @@ const Home = () => {
         <div className="home__msg">
           <div className="home__msg--content">
             <h1 className="home__msg--h1">
-              Herzlich Willkommen DF Immobilien GmbH
+              Herzlich Willkommen bei DF Immobilien GmbH
             </h1>
             <h2 className="home__msg--h2">
               Ihr zuverlässiger Partner rund um lhre lmmobilie

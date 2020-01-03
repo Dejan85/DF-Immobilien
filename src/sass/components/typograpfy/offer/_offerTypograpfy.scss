@@ -10,15 +10,20 @@
   &__h2 {
     color: $gray;
     font-family: $font-1;
-    font-size: 4rem;
+    font-size: 3.6rem;
     font-weight: 700;
-    // line-height: 1.2;
+    line-height: 1.4;
   }
 
   &__p {
     color: $gray;
     font-family: $font-2;
     font-size: 1.9rem;
+  }
+
+  &__span {
+    color: $color-primary;
+    font-weight: 600;
   }
 
   &__h3 {

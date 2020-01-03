@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Router>
         <Header />
-        <Switch>
+        {/* <Switch>
           <Route exact path="/dfimmobilien/home">
             <Home />
           </Route>
@@ -24,6 +24,14 @@ function App() {
             <Services />
           </Route>
           <Route exact path="/dfimmobilien/grundstückanbieten">
+            <Offer />
+          </Route>
+        </Switch> */}
+        <Switch>
+          <Route exact path="/dfimmobilien">
+            <Home />
+            <About />
+            <Services />
             <Offer />
           </Route>
         </Switch>
