@@ -54,7 +54,7 @@ const Services = () => {
                 unserAnspruch.
               </p>
             </div>
-            <div className="services__text--box">
+            {/* <div className="services__text--box">
               <h3 className="services__h3">
                 <img src={icon6} alt="icon" />
                 Ankauf
@@ -76,7 +76,7 @@ const Services = () => {
                 und Vermietung Wohn- und Geschäftshaus in Erlangen Sanierung und
                 Vermietung Appartementhaus in Erlangen
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="services__righttext">
@@ -136,7 +136,7 @@ const Services = () => {
               Objektübergabe
             </li>
           </ul>
-          <h3 className="services__h3">Ankauf</h3>
+          <h3 className="services__h3">Vermietung</h3>
           <ul className="services__ul">
             <li className="services__li">
               <i className="fas fa-check" />
