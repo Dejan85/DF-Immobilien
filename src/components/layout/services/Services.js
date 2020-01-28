@@ -236,6 +236,14 @@ const Services = () => {
             Gewerberäume. Als Besteller zahlen Sie eine Provision in Höhe von 2
             Kaltmieten zzgl. Mwst an uns.
           </p>
+
+          <p
+            className="services__p"
+            style={{ color: "white", fontWeight: "300" }}
+          >
+            Für eine über uns erworbene Immobilie bieten wir Ihnen die
+            Erstvermietung unentgeltlich an.{" "}
+          </p>
         </div>
       </div>
     </div>
