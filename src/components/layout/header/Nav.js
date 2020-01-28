@@ -46,7 +46,7 @@ const Nav = () => {
       <li className="header__nav--li">
         <Link
           activeClass="active"
-          to="/"
+          to="/dfimmobilien"
           spy={true}
           smooth={"true"}
           duration={duration}
@@ -82,7 +82,7 @@ const Nav = () => {
       <li className="header__nav--li">
         <Link
           activeClass="active"
-          to="/"
+          to="/dfimmobilien"
           spy={true}
           smooth={"true"}
           duration={duration}
