@@ -3,6 +3,8 @@ import React from "react";
 //images
 import img from "../../../sass/images/23.jpg";
 import img2 from "../../../sass/images/24.jpg";
+import img3 from "../../../sass/images/25.jpg";
+import img4 from "../../../sass/images/26.jpg";
 
 //icon
 import icon from "../../../sass/images/icon.jpg";
@@ -22,14 +24,14 @@ const Services = () => {
     <div className="services">
       <div
         className="services__background"
-        style={{ background: `url(${img2})` }}
+        style={{ background: `url(${img4})` }}
       >
         <h1 className="services__h1">Unsere Leistungen</h1>
       </div>
       <div className="services__content">
         <div className="services__text">
           <h2 className="services__h2">
-            DIF Wohnbau Gmbh
+            Wohnbau und Projektentwicklung
             <div className="services__line" />
           </h2>
           <div className="services__text--content">
@@ -39,10 +41,14 @@ const Services = () => {
                 Neubau
               </h3>
               <p className="services__p">
-                Als Bauträger realisieren wir Ein-, Doppel-, Reihen-, sowie
-                Mehrfamilienhäuser Als Käufer erhalten Sie alle Leistungen aus
-                einer Hand. ln Zusamenarbeiten mit unserem Architekten
-                organisieren und koordinieren wjr sämtliche Bauleistungen.
+                Als Bauträger und Generalunternehmer realisieren wir Ein-,
+                Doppel-, Reihen-, sowie Mehrfamilienhäuser in Erlangen und
+                Umgebung. Sie als Käufer bzw. Bauherr erhalten alle Leistungen
+                aus einer Hand zum Festpreis. In Zusamenarbeiten mit unserem
+                Architekten organisieren und koordinieren wir sämtliche
+                Bauleistungen.  Ein Allround-Paket, das bei jedem Planungs- und
+                Bauschritt immer auch unseren hohen Qualitäts- und
+                Service-Ansprüchen unterliegt.
               </p>
             </div>
             <div className="services__text--box">
@@ -52,8 +58,13 @@ const Services = () => {
               </h3>
               <p className="services__p">
                 Die Chancen und Möglichkeiten die ein Grundstück oder eine
-                lmmobilie bietet zu erkennen und diese umzuseEen ist
-                unserAnspruch.
+                Immobilie bietet zu erkennen und diese umzusetzen ist unser
+                Anspruch. Wenn es darum geht, neue Projekte zu entwickeln,
+                braucht man Weitblick, Kreativität, Marktkenntnis und Erfahrung
+                in den Bereichen Planung, Bau und Vermarktung. Unser
+                rechtliches, planerisches und immobilienwirtschaftliches Wissen
+                verbunden mit sehr guten Markt- und Standortkenntnissen sind ein
+                Garant für eine erfolgreiche Projektentwicklung
               </p>
             </div>
             {/* <div className="services__text--box">
@@ -83,14 +94,36 @@ const Services = () => {
         </div>
         <div className="services__righttext">
           <h2 className="services__h2">
-            DIF Immobilienservice
+            Verkauf und Vermietung Ihrer Immobilie
             <div className="services__line" />
           </h2>
           <h4 className="services__h4">
-            Wir bieten lhnen eine profesionelle Abwicklung beim Verkauf oder
-            Vermietung lhrer lmmobilie.
+            {/* Wir bieten lhnen eine profesionelle Abwicklung beim Verkauf oder
+            Vermietung lhrer lmmobilie. */}
+            Sie wollen eine Immobilien verkaufen oder vermieten? Wir bieten
+            Ihnen eine profesionelle Abwicklung beim Verkauf oder Vermietung
+            Ihrer Immobilie Wir begleiten Sie in allen Schritten
           </h4>
-
+          <h3 className="services__h3">
+            Mit welchen Kosten müssen Sie als Verkäufer rechnen?
+          </h3>
+          <p className="services__p" style={{ color: "white" }}>
+            Wenn Sie Ihre Immobilie über uns verkaufen, fallen für Sie als
+            Immobilieneigentümer keine Kosten an. Alle Erwerbsnebenkosten werden
+            vom Käufer getragen. Die Kosten für die Unterlagenrecherche und die
+            Marketingaktivitäten übernehmen wir für unsere Kunden. Lediglich die
+            Gebühren für eine eventuelle Löschung von eingetragenen
+            Grundbuchlasten sind durch den Verkäufer zu tragen.
+          </p>
+          <p className="services__p" style={{ color: "white" }}>
+            Ganz anders sieht es aus, wenn Sie den geplanten Immobilienverkauf
+            durchführen würden. In diesem Falle müssten die Kosten für die
+            Beschaffung der notwendigen Unterlagen (z.B. Grundbuch,
+            Energieausweis, Grundrisse, Baulastenauskunft, etc.) sowie die
+            Vermarktung (Immobilienportale, Anzeigen, Fotografen) durch den
+            Eigentümer getragen werden. Der zeitliche Aufwand und die
+            Verkaufsverhandlungen sind nicht zu unterschätzen.
+          </p>
           <h3 className="services__h3">Verkauf</h3>
           <ul className="services__ul">
             <li className="services__li">

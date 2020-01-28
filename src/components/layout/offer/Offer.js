@@ -2,6 +2,8 @@ import React from "react";
 
 // images
 import img from "../../../sass/images/17_mask.jpg";
+import img2 from "../../../sass/images/24.jpg";
+import img3 from "../../../sass/images/25.jpg";
 // import img2 from "../../../sass/images/15_mask.jpg";
 // import img3 from "../../../sass/images/17_blur.jpg";
 // import img4 from "../../../sass/images/17_blur2.jpg";
@@ -9,7 +11,7 @@ import img from "../../../sass/images/17_mask.jpg";
 const Offer = () => {
   return (
     <div className="offer">
-      <div className="offer__background" style={{ background: `url(${img})` }}>
+      <div className="offer__background" style={{ background: `url(${img3})` }}>
         <h1 className="offer__h1">Immobilienkauf</h1>
       </div>
       <div className="offer__content">

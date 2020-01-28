@@ -1,6 +1,6 @@
 .home {
   &__msg {
-    font-family: $font-2;
+    font-family: $font-3;
     text-align: right;
     &--h1 {
       font-size: 3.3rem;
@@ -15,10 +15,11 @@
     }
 
     &--p {
-      font-family: $font-1;
+      font-family: $font-3;
       font-size: 1.7rem;
       color: lighten($gray, 5%);
-      font-weight: 500;
+      font-weight: 400;
+      line-height: 1.6;
     }
 
     &--link {
@@ -26,7 +27,7 @@
       font-size: 1.7rem;
       text-decoration: none;
       color: $color-primary3;
-      font-weight: 500;
+      font-weight: 400;
       color: white;
     }
   }

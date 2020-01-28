@@ -2,6 +2,7 @@ import React from "react";
 
 import img10 from "../../../sass/images/10.jpg";
 import img12 from "../../../sass/images/12.jpg";
+import img12_1 from "../../../sass/images/12_1.jpg";
 
 const About = () => {
   return (
@@ -11,8 +12,8 @@ const About = () => {
           className="about__left"
           // style={{ background: `url(${img12})` }}
         >
-          <div className="about__frame" />
-          <img src={img12} alt="slika" className="about__img" />
+          {/* <div className="about__frame" /> */}
+          <img src={img12_1} alt="slika" className="about__img" />
         </div>
         <div className="about__right" style={{ background: `url(${img10})` }}>
           {/* <h1 className="about__h1">Über uns</h1> */}
