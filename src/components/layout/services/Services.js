@@ -14,6 +14,8 @@ import icon6 from "../../../sass/images/icon6.jpg";
 import icon7 from "../../../sass/images/icon7.jpg";
 import icon8 from "../../../sass/images/icon8.jpg";
 import icon9 from "../../../sass/images/icon9.jpg";
+import icon10 from "../../../sass/images/icon10.jpg";
+import icon11 from "../../../sass/images/icon11.jpg";
 
 const Services = () => {
   return (
@@ -33,7 +35,7 @@ const Services = () => {
           <div className="services__text--content">
             <div className="services__text--box">
               <h3 className="services__h3">
-                <img src={icon5} alt="icon" />
+                <img src={icon10} alt="icon" />
                 Neubau
               </h3>
               <p className="services__p">
@@ -45,7 +47,7 @@ const Services = () => {
             </div>
             <div className="services__text--box">
               <h3 className="services__h3">
-                <img src={icon} alt="icon" />
+                <img src={icon11} alt="icon" />
                 Projektentwicklung
               </h3>
               <p className="services__p">
