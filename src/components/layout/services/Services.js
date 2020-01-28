@@ -155,7 +155,10 @@ const Services = () => {
           <h3 className="services__h3">
             Mit welchen Kosten müssen Sie als Verkäufer rechnen?
           </h3>
-          <p className="services__p" style={{ color: "white" }}>
+          <p
+            className="services__p"
+            style={{ color: "white", fontWeight: "300" }}
+          >
             Wenn Sie Ihre Immobilie über uns verkaufen, fallen für Sie als
             Immobilieneigentümer keine Kosten an. Alle Erwerbsnebenkosten werden
             vom Käufer getragen. Die Kosten für die Unterlagenrecherche und die
@@ -163,7 +166,10 @@ const Services = () => {
             Gebühren für eine eventuelle Löschung von eingetragenen
             Grundbuchlasten sind durch den Verkäufer zu tragen.
           </p>
-          <p className="services__p" style={{ color: "white" }}>
+          <p
+            className="services__p"
+            style={{ color: "white", fontWeight: "300" }}
+          >
             Ganz anders sieht es aus, wenn Sie den geplanten Immobilienverkauf
             durchführen würden. In diesem Falle müssten die Kosten für die
             Beschaffung der notwendigen Unterlagen (z.B. Grundbuch,
@@ -217,6 +223,19 @@ const Services = () => {
               Objektübergabe mit Erstellung eines Übergabeprotokolls
             </li>
           </ul>
+          <h3 className="services__h3">
+            Mit welchen Kosten müssen Sie als Vermieter rechnen?
+          </h3>
+          <p
+            className="services__p"
+            style={{ color: "white", fontWeight: "300" }}
+          >
+            Seit 1. Juni 2015 gilt das Bestellerprinzip. Wer den Makler bei
+            einer Wohnungsvermietung beauftragt, muss ihn auch bezahlen. Diese
+            Regelung gilt jedoch nur für Vermietung von Wohräumen, nicht für
+            Gewerberäume. Als Besteller zahlen Sie eine Provision in Höhe von 2
+            Kaltmieten zzgl. Mwst an uns.
+          </p>
         </div>
       </div>
     </div>
