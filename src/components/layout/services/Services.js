@@ -104,26 +104,6 @@ const Services = () => {
             Ihnen eine profesionelle Abwicklung beim Verkauf oder Vermietung
             Ihrer Immobilie Wir begleiten Sie in allen Schritten
           </h4>
-          <h3 className="services__h3">
-            Mit welchen Kosten müssen Sie als Verkäufer rechnen?
-          </h3>
-          <p className="services__p" style={{ color: "white" }}>
-            Wenn Sie Ihre Immobilie über uns verkaufen, fallen für Sie als
-            Immobilieneigentümer keine Kosten an. Alle Erwerbsnebenkosten werden
-            vom Käufer getragen. Die Kosten für die Unterlagenrecherche und die
-            Marketingaktivitäten übernehmen wir für unsere Kunden. Lediglich die
-            Gebühren für eine eventuelle Löschung von eingetragenen
-            Grundbuchlasten sind durch den Verkäufer zu tragen.
-          </p>
-          <p className="services__p" style={{ color: "white" }}>
-            Ganz anders sieht es aus, wenn Sie den geplanten Immobilienverkauf
-            durchführen würden. In diesem Falle müssten die Kosten für die
-            Beschaffung der notwendigen Unterlagen (z.B. Grundbuch,
-            Energieausweis, Grundrisse, Baulastenauskunft, etc.) sowie die
-            Vermarktung (Immobilienportale, Anzeigen, Fotografen) durch den
-            Eigentümer getragen werden. Der zeitliche Aufwand und die
-            Verkaufsverhandlungen sind nicht zu unterschätzen.
-          </p>
           <h3 className="services__h3">Verkauf</h3>
           <ul className="services__ul">
             <li className="services__li">
@@ -171,6 +151,28 @@ const Services = () => {
               Objektübergabe
             </li>
           </ul>
+
+          <h3 className="services__h3">
+            Mit welchen Kosten müssen Sie als Verkäufer rechnen?
+          </h3>
+          <p className="services__p" style={{ color: "white" }}>
+            Wenn Sie Ihre Immobilie über uns verkaufen, fallen für Sie als
+            Immobilieneigentümer keine Kosten an. Alle Erwerbsnebenkosten werden
+            vom Käufer getragen. Die Kosten für die Unterlagenrecherche und die
+            Marketingaktivitäten übernehmen wir für unsere Kunden. Lediglich die
+            Gebühren für eine eventuelle Löschung von eingetragenen
+            Grundbuchlasten sind durch den Verkäufer zu tragen.
+          </p>
+          <p className="services__p" style={{ color: "white" }}>
+            Ganz anders sieht es aus, wenn Sie den geplanten Immobilienverkauf
+            durchführen würden. In diesem Falle müssten die Kosten für die
+            Beschaffung der notwendigen Unterlagen (z.B. Grundbuch,
+            Energieausweis, Grundrisse, Baulastenauskunft, etc.) sowie die
+            Vermarktung (Immobilienportale, Anzeigen, Fotografen) durch den
+            Eigentümer getragen werden. Der zeitliche Aufwand und die
+            Verkaufsverhandlungen sind nicht zu unterschätzen.
+          </p>
+
           <h3 className="services__h3">Vermietung</h3>
           <ul className="services__ul">
             <li className="services__li">
