@@ -28,7 +28,7 @@ function App() {
           </Route>
         </Switch> */}
         <Switch>
-          <Route exact path="/dfimmobilien">
+          <Route exact path="/">
             <Home />
             <About />
             <Services />

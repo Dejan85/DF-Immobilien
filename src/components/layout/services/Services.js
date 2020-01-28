@@ -228,7 +228,7 @@ const Services = () => {
           </h3>
           <p
             className="services__p"
-            style={{ color: "white", fontWeight: "300" }}
+            style={{ color: "white", fontWeight: "300", fontSize: "1.8rem" }}
           >
             Seit 1. Juni 2015 gilt das Bestellerprinzip. Wer den Makler bei
             einer Wohnungsvermietung beauftragt, muss ihn auch bezahlen. Diese
