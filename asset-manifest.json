@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/dfimmobilien/static/css/main.fac38b2d.chunk.css",
-    "main.js": "/dfimmobilien/static/js/main.99c37d0b.chunk.js",
-    "main.js.map": "/dfimmobilien/static/js/main.99c37d0b.chunk.js.map",
+    "main.js": "/dfimmobilien/static/js/main.c355f019.chunk.js",
+    "main.js.map": "/dfimmobilien/static/js/main.c355f019.chunk.js.map",
     "runtime-main.js": "/dfimmobilien/static/js/runtime-main.4b087879.js",
     "runtime-main.js.map": "/dfimmobilien/static/js/runtime-main.4b087879.js.map",
     "static/js/2.7ad1ce1c.chunk.js": "/dfimmobilien/static/js/2.7ad1ce1c.chunk.js",
     "static/js/2.7ad1ce1c.chunk.js.map": "/dfimmobilien/static/js/2.7ad1ce1c.chunk.js.map",
     "index.html": "/dfimmobilien/index.html",
-    "precache-manifest.ecd2ada4b5d94030b0120f0c4dbb53c3.js": "/dfimmobilien/precache-manifest.ecd2ada4b5d94030b0120f0c4dbb53c3.js",
+    "precache-manifest.170f94b67bdcae2396b875c95f996113.js": "/dfimmobilien/precache-manifest.170f94b67bdcae2396b875c95f996113.js",
     "service-worker.js": "/dfimmobilien/service-worker.js",
     "static/css/main.fac38b2d.chunk.css.map": "/dfimmobilien/static/css/main.fac38b2d.chunk.css.map",
     "static/js/2.7ad1ce1c.chunk.js.LICENSE": "/dfimmobilien/static/js/2.7ad1ce1c.chunk.js.LICENSE",
@@ -36,6 +36,6 @@
     "static/js/runtime-main.4b087879.js",
     "static/js/2.7ad1ce1c.chunk.js",
     "static/css/main.fac38b2d.chunk.css",
-    "static/js/main.99c37d0b.chunk.js"
+    "static/js/main.c355f019.chunk.js"
   ]
 }
