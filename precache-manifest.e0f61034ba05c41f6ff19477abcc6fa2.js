@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "57ef87fe81772786685af96ba1b32baf",
+    "revision": "aa2ca2f8881a387e0a15f2dbde27b5ea",
     "url": "/dfimmobilien/index.html"
   },
   {
-    "revision": "bc4b34c043f6a2b9e90a",
-    "url": "/dfimmobilien/static/css/main.d8d95b0c.chunk.css"
+    "revision": "0309338646b60066c304",
+    "url": "/dfimmobilien/static/css/main.fac38b2d.chunk.css"
   },
   {
-    "revision": "ca467860d5829887bf75",
-    "url": "/dfimmobilien/static/js/2.234675e4.chunk.js"
+    "revision": "974f821766b3bc102fcd",
+    "url": "/dfimmobilien/static/js/2.7ad1ce1c.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/dfimmobilien/static/js/2.234675e4.chunk.js.LICENSE"
+    "url": "/dfimmobilien/static/js/2.7ad1ce1c.chunk.js.LICENSE"
   },
   {
-    "revision": "bc4b34c043f6a2b9e90a",
-    "url": "/dfimmobilien/static/js/main.ab1fba39.chunk.js"
+    "revision": "0309338646b60066c304",
+    "url": "/dfimmobilien/static/js/main.f8edb06d.chunk.js"
   },
   {
     "revision": "3ffe7c47f0d37f3e5779",
@@ -36,6 +36,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dfimmobilien/static/media/12.20754c18.jpg"
   },
   {
+    "revision": "2aefe14320cde48a80f7d89813ee9b1c",
+    "url": "/dfimmobilien/static/media/12_1.2aefe143.jpg"
+  },
+  {
     "revision": "6ba525ac7b60850b74cbd7bb72521d86",
     "url": "/dfimmobilien/static/media/17_mask.6ba525ac.jpg"
   },
@@ -44,12 +48,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dfimmobilien/static/media/23.880f2560.jpg"
   },
   {
-    "revision": "5117d109c218c9d4e00daddfd9a14c83",
-    "url": "/dfimmobilien/static/media/24.5117d109.jpg"
+    "revision": "1758b557469a09da9a0d49e0339245e5",
+    "url": "/dfimmobilien/static/media/24.1758b557.jpg"
+  },
+  {
+    "revision": "04c2caa4a17c31d468eac8d397ca6335",
+    "url": "/dfimmobilien/static/media/25.04c2caa4.jpg"
+  },
+  {
+    "revision": "fa6848375bc3ed6b935cbee23ec5e4d0",
+    "url": "/dfimmobilien/static/media/26.fa684837.jpg"
   },
   {
     "revision": "fcdad967840edafd6dff94988d8d8c23",
     "url": "/dfimmobilien/static/media/icon.fcdad967.jpg"
+  },
+  {
+    "revision": "ca797c768cb5c476dda564b3b5196844",
+    "url": "/dfimmobilien/static/media/icon10.ca797c76.jpg"
   },
   {
     "revision": "b5f11d55aa6d379b58efa01d97b48db4",
