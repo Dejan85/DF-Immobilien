@@ -37,9 +37,10 @@ const UnsereLeistungen = () => {
           <div className="unsereLeistungen__text--content">
             <div className="unsereLeistungen__text--box">
               <h3 className="unsereLeistungen__h3">
-                <img src={icon10} alt="icon" />
+                {/* <img src={icon10} alt="icon" /> */}
                 Neubau
               </h3>
+              <img src={icon10} alt="icon" />
               <p className="unsereLeistungen__p">
                 Als Bauträger und Generalunternehmer realisieren wir Ein-,
                 Doppel-, Reihen-, sowie Mehrfamilienhäuser in Erlangen und
@@ -53,9 +54,10 @@ const UnsereLeistungen = () => {
             </div>
             <div className="unsereLeistungen__text--box">
               <h3 className="unsereLeistungen__h3">
-                <img src={icon11} alt="icon" />
+                {/* <img src={icon11} alt="icon" /> */}
                 Projektentwicklung
               </h3>
+              <img src={icon11} alt="icon" />
               <p className="unsereLeistungen__p">
                 Die Chancen und Möglichkeiten die ein Grundstück oder eine
                 Immobilie bietet zu erkennen und diese umzusetzen ist unser
