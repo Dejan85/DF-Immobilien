@@ -54,7 +54,7 @@ const Nav = () => {
           duration={duration}
           offset={0}
         >
-          Aktuelle angebote
+          Aktuelle Angebote
         </Link>
       </li>
       <li className="header__nav--li">
@@ -66,7 +66,7 @@ const Nav = () => {
           duration={duration}
           offset={-100}
         >
-          Immobilienkauf
+          Immobilienankauf
         </Link>
       </li>
       <li className="header__nav--li">
