@@ -5,8 +5,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./components/layout/header/Header";
 import Home from "./components/layout/home/Home";
 import Überuns from "./components/layout/überuns/Überuns";
-import Services from "./components/layout/services/Services";
-import Offer from "./components/layout/offer/Offer";
+import UnsereLeistungen from "./components/layout/unsereleistungen/UnsereLeistungen";
+import Immobilienankauf from "./components/layout/immobilienankauf/Immobilienankauf";
 import Referenzen from "./components/layout/referenzen/Referenzen";
 
 function App() {
@@ -18,8 +18,8 @@ function App() {
           <Route exact path="/dfimmobilien">
             <Home />
             <Überuns />
-            <Services />
-            <Offer />
+            <UnsereLeistungen />
+            <Immobilienankauf />
             {/* <Referenzen /> */}
           </Route>
         </Switch>
