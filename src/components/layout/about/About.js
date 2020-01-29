@@ -13,7 +13,7 @@ const About = () => {
           // style={{ background: `url(${img12})` }}
         >
           {/* <div className="about__frame" /> */}
-          <img src={img12_1} alt="slika" className="about__img" />
+          {/* <img src={img12_1} alt="slika" className="about__img" /> */}
         </div>
         <div className="about__right" style={{ background: `url(${img10})` }}>
           {/* <h1 className="about__h1">Über uns</h1> */}

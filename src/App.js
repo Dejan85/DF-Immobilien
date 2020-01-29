@@ -7,6 +7,7 @@ import Home from "./components/layout/home/Home";
 import About from "./components/layout/about/About";
 import Services from "./components/layout/services/Services";
 import Offer from "./components/layout/offer/Offer";
+import Referenzen from "./components/layout/referenzen/Referenzen";
 
 function App() {
   return (
@@ -28,11 +29,12 @@ function App() {
           </Route>
         </Switch> */}
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/dfimmobilien">
             <Home />
             <About />
             <Services />
             <Offer />
+            {/* <Referenzen /> */}
           </Route>
         </Switch>
       </Router>
