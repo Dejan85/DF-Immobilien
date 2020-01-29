@@ -13,15 +13,19 @@
 // LAYOUT
 @import "./components/layout/home/home";
 @import "./components/layout/home/header";
-@import "./components/layout/about/about";
+@import "./components/layout/überuns/überuns";
 @import "./components/layout/services/services";
 @import "./components/layout/offer/offer";
 @import "./components/layout/referenzen/referenzen";
+@import "./components/layout/impressum/impressum";
+@import "./components/layout/datenschutz/datenschutz";
 
 // TYPOGRAPFY
 @import "./components/typograpfy/home/headerTypograpfy";
 @import "./components/typograpfy/home/homeTypograpfy";
-@import "./components/typograpfy/about/aboutTypograpfy";
+@import "./components/typograpfy/überuns/überunsTypograpfy";
 @import "./components/typograpfy/services/servicesTypograpfy";
 @import "./components/typograpfy/offer/offerTypograpfy";
 @import "./components/typograpfy/referenzen/referenzenTypograpfy";
+@import "./components/typograpfy/impressum/ImpressumTypograpfy";
+@import "./components/typograpfy/datenschutz/datenschutzTypogprafy";

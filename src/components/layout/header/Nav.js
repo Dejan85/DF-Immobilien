@@ -24,7 +24,7 @@ const Nav = () => {
       <li className="header__nav--li">
         <Link
           activeClass="active"
-          to="about"
+          to="überuns"
           spy={true}
           smooth={"true"}
           duration={duration}

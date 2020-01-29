@@ -4,25 +4,25 @@ import img10 from "../../../sass/images/10.jpg";
 import img12 from "../../../sass/images/12.jpg";
 import img12_1 from "../../../sass/images/12_1.jpg";
 
-const About = () => {
+const Überuns = () => {
   return (
-    <div className="about">
-      <div className="about__content">
+    <div className="überuns">
+      <div className="überuns__content">
         <div
-          className="about__left"
+          className="überuns__left"
           // style={{ background: `url(${img12})` }}
         >
-          {/* <div className="about__frame" /> */}
-          {/* <img src={img12_1} alt="slika" className="about__img" /> */}
+          {/* <div className="überuns__frame" /> */}
+          {/* <img src={img12_1} alt="slika" className="überuns__img" /> */}
         </div>
-        <div className="about__right" style={{ background: `url(${img10})` }}>
-          {/* <h1 className="about__h1">Über uns</h1> */}
-          <span className="about__span">Geschäftsführer:</span>
-          <h1 className="about__h1">Dejan Bogojevic</h1>
-          <span className="about__span">
+        <div className="überuns__right" style={{ background: `url(${img10})` }}>
+          {/* <h1 className="überuns__h1">Über uns</h1> */}
+          <span className="überuns__span">Geschäftsführer:</span>
+          <h1 className="überuns__h1">Dejan Bogojevic</h1>
+          <span className="überuns__span">
             staatl. geprüfter lmmobilienfachmann
           </span>
-          <div className="about__p">
+          <div className="überuns__p">
             <p>
               <i className="far fa-calendar-alt"></i> Jahrgang 1978
             </p>
@@ -31,8 +31,8 @@ const About = () => {
               Erlangen
             </p>
           </div>
-          <span className="about__span">Beruflicher Werdegang:</span>
-          <div className="about__p">
+          <span className="überuns__span">Beruflicher Werdegang:</span>
+          <div className="überuns__p">
             <p>Realschule am Europakanal</p>
             <p>FOS Erlangen</p>
             <p>Ausbildung zum Bürokaufmann in der Baubranche</p>
@@ -50,4 +50,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Überuns;
