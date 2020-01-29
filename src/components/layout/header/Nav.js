@@ -3,9 +3,7 @@ import React, { useState } from "react";
 import { Link } from "react-scroll";
 
 const Nav = () => {
-  const [duration, setDuration] = useState(1200);
-
-  console.log(duration);
+  const [duration] = useState(1200);
 
   return (
     <ul className="header__nav">
@@ -36,7 +34,7 @@ const Nav = () => {
       <li className="header__nav--li">
         <Link
           activeClass="active"
-          to="UnsereLeistungen"
+          to="unsereLeistungen"
           spy={true}
           smooth={"true"}
           duration={duration}
@@ -48,7 +46,7 @@ const Nav = () => {
       <li className="header__nav--li">
         <Link
           activeClass="active"
-          to="/dfimmobilien"
+          to="AktuelleAngebote"
           spy={true}
           smooth={"true"}
           duration={duration}
@@ -60,7 +58,7 @@ const Nav = () => {
       <li className="header__nav--li">
         <Link
           activeClass="active"
-          to="Immobilienankauf"
+          to="immobilienankauf"
           spy={true}
           smooth={"true"}
           duration={duration}
@@ -90,7 +88,7 @@ const Nav = () => {
           duration={duration}
           offset={0}
         >
-          Impressum
+          Kontakt
         </Link>
       </li>
 
