@@ -33,6 +33,7 @@ function App() {
             <Impressum />
           </Route>
           <Route exact path="/dfimmobilien/datenschutz">
+            <Header />
             <Datenschutz />
           </Route>
         </Switch>

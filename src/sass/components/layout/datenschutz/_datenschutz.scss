@@ -1,0 +1,37 @@
+.datenschutz {
+  display: flex;
+  flex-direction: column;
+  max-width: 120rem;
+  width: 100%;
+  align-self: center;
+  padding: 10rem 0;
+  //   outline: 1px solid red;
+
+  &__h1 {
+    text-align: center;
+    padding: 10rem 0 3rem 0;
+  }
+  &__h2 {
+    padding: 4rem 0 0 0;
+  }
+  &__h3 {
+    padding: 4rem 0 0 0;
+  }
+
+  &__p {
+    padding: 1rem 0 0 0;
+  }
+
+  &__h4 {
+    padding: 4rem 0 0 0;
+  }
+
+  &__ul {
+    padding: 1rem 0;
+  }
+
+  &__li {
+    margin-left: 2rem;
+    padding: 1rem 0;
+  }
+}
