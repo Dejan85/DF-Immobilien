@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dfimmobilien/precache-manifest.92d4e1d9947617e8dca732804829267e.js"
+  "/dfimmobilien/precache-manifest.c8b634559b7cf6e974d3e9e0a9080903.js"
 );
 
 self.addEventListener('message', (event) => {
