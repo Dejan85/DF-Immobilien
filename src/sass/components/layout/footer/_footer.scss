@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  background: lighten($color-primary3, 10%);
+  height: 40rem;
+
+  &__ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__li {
+    list-style-type: none;
+  }
+}

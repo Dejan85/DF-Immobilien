@@ -10,14 +10,16 @@ import Immobilienankauf from "./components/layout/immobilienankauf/Immobilienank
 import Referenzen from "./components/layout/referenzen/Referenzen";
 import Kontakt from "./components/layout/kontakt/Kontakt";
 import Footer from "./components/layout/footer/Footer";
+import Impressum from "./components/layout/impressum/Impressum";
+import Datenschutz from "./components/layout/datenschutz/Datenschutz";
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Header />
         <Switch>
           <Route exact path="/dfimmobilien">
+            <Header />
             <Home />
             <Überuns />
             <UnsereLeistungen />
@@ -25,6 +27,13 @@ function App() {
             <Referenzen />
             <Kontakt />
             <Footer />
+          </Route>
+          <Route exact path="/dfimmobilien/impressum">
+            <Header />
+            <Impressum />
+          </Route>
+          <Route exact path="/dfimmobilien/datenschutz">
+            <Datenschutz />
           </Route>
         </Switch>
       </Router>

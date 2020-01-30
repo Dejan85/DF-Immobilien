@@ -1,0 +1,36 @@
+.impressum {
+  &__h1 {
+    color: $color-primary3;
+    font-family: $font-3;
+    font-size: 4rem;
+    font-weight: 400;
+  }
+
+  &__h2 {
+    color: $color-primary3;
+    font-family: $font-3;
+    font-size: 3rem;
+    font-weight: 500;
+  }
+
+  &__h3 {
+    color: $color-primary3;
+    font-family: $font-3;
+    font-size: 5rem;
+    font-weight: 500;
+  }
+
+  &__h4 {
+    color: $color-primary3;
+    font-family: $font-3;
+    font-size: 2.7rem;
+    font-weight: 500;
+  }
+
+  &__p {
+    color: darken($color-gray, 10%);
+    font-family: $font-3;
+    font-size: 1.8rem;
+    font-weight: 400;
+  }
+}

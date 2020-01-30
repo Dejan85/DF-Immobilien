@@ -1,0 +1,15 @@
+.footer {
+  &__ul {
+    display: flex;
+  }
+
+  &__li {
+  }
+
+  &__link {
+    font-family: $font-3;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+  }
+}
