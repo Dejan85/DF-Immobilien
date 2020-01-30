@@ -52,7 +52,10 @@ const UnsereLeistungen = () => {
                 Service-Ansprüchen unterliegt.
               </p>
             </div>
-            <div className="unsereLeistungen__box">
+            <div
+              className="unsereLeistungen__box"
+              style={{ marginTop: "10rem" }}
+            >
               <h3 className="unsereLeistungen__box--h3">
                 {/* <img src={icon11} alt="icon" /> */}
                 Projektentwicklung
