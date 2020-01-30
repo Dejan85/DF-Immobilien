@@ -1,8 +1,8 @@
 import React from "react";
 
 // images
-import img from "../../../sass/images/17_mask.jpg";
-import img2 from "../../../sass/images/24.jpg";
+// import img from "../../../sass/images/17_mask.jpg";
+// import img2 from "../../../sass/images/24.jpg";
 import img3 from "../../../sass/images/25.jpg";
 // import img2 from "../../../sass/images/15_mask.jpg";
 // import img3 from "../../../sass/images/17_blur.jpg";

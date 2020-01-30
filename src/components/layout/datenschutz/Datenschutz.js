@@ -8,7 +8,7 @@ const Datenschutz = () => {
 
   useEffect(() => {
     resetScroll();
-  }, []);
+  }, [resetScroll]);
 
   return (
     <div className="datenschutz">

@@ -8,7 +8,7 @@ const Impressum = () => {
 
   useEffect(() => {
     resetScroll();
-  }, []);
+  }, [resetScroll]);
 
   return (
     <div className="impressum">

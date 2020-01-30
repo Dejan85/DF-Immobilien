@@ -1,8 +1,8 @@
 import React from "react";
 
 import img10 from "../../../sass/images/10.jpg";
-import img12 from "../../../sass/images/12.jpg";
-import img12_1 from "../../../sass/images/12_1.jpg";
+// import img12 from "../../../sass/images/12.jpg";
+// import img12_1 from "../../../sass/images/12_1.jpg";
 
 const Überuns = () => {
   return (
