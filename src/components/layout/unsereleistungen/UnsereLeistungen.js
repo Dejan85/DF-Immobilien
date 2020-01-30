@@ -29,19 +29,19 @@ const UnsereLeistungen = () => {
         <h1 className="unsereLeistungen__h1">Unsere Leistungen</h1>
       </div>
       <div className="unsereLeistungen__content">
-        <div className="unsereLeistungen__text">
+        <div className="unsereLeistungen__leftside">
           <h2 className="unsereLeistungen__h2">
             Wohnbau und Projektentwicklung
             <div className="unsereLeistungen__line" />
           </h2>
-          <div className="unsereLeistungen__text--content">
-            <div className="unsereLeistungen__text--box">
-              <h3 className="unsereLeistungen__h3">
+          <div className="unsereLeistungen__boxContainer">
+            <div className="unsereLeistungen__box">
+              <h3 className="unsereLeistungen__box--h3">
                 {/* <img src={icon10} alt="icon" /> */}
                 Neubau
               </h3>
               <img src={icon10} alt="icon" />
-              <p className="unsereLeistungen__p">
+              <p className="unsereLeistungen__box--p">
                 Als Bauträger und Generalunternehmer realisieren wir Ein-,
                 Doppel-, Reihen-, sowie Mehrfamilienhäuser in Erlangen und
                 Umgebung. Sie als Käufer bzw. Bauherr erhalten alle Leistungen
@@ -52,13 +52,13 @@ const UnsereLeistungen = () => {
                 Service-Ansprüchen unterliegt.
               </p>
             </div>
-            <div className="unsereLeistungen__text--box">
-              <h3 className="unsereLeistungen__h3">
+            <div className="unsereLeistungen__box">
+              <h3 className="unsereLeistungen__box--h3">
                 {/* <img src={icon11} alt="icon" /> */}
                 Projektentwicklung
               </h3>
               <img src={icon11} alt="icon" />
-              <p className="unsereLeistungen__p">
+              <p className="unsereLeistungen__box--p">
                 Die Chancen und Möglichkeiten die ein Grundstück oder eine
                 Immobilie bietet zu erkennen und diese umzusetzen ist unser
                 Anspruch. Wenn es darum geht, neue Projekte zu entwickeln,
@@ -69,32 +69,9 @@ const UnsereLeistungen = () => {
                 Garant für eine erfolgreiche Projektentwicklung
               </p>
             </div>
-            {/* <div className="unsereLeistungen__text--box">
-              <h3 className="unsereLeistungen__h3">
-                <img src={icon6} alt="icon" />
-                Ankauf
-              </h3>
-              <p className="unsereLeistungen__p">
-                Wir erwerben Grundsiücke für die Neubebauung, Wohn- und
-                Geschäftshäuser, sowie unsanierte Altbausubstanz zur Erweiterung
-                unseres lmmobilienbestandes. Aktuell stehen oa. 20 Wohn- und
-                Gewerbeeinheiten in unserem Besiiz.
-              </p>
-            </div>
-            <div className="unsereLeistungen__text--box">
-              <h3 className="unsereLeistungen__h3">
-                <img src={icon4} alt="icon" />
-                Referenzen
-              </h3>
-              <p className="unsereLeistungen__p">
-                Neubau eines Einfam ilienhauses in Herzogenaurach Renovierung
-                und Vermietung Wohn- und Geschäftshaus in Erlangen Sanierung und
-                Vermietung Appartementhaus in Erlangen
-              </p>
-            </div> */}
           </div>
         </div>
-        <div className="unsereLeistungen__righttext">
+        <div className="unsereLeistungen__rightside">
           <h2 className="unsereLeistungen__h2">
             Verkauf und Vermietung Ihrer Immobilie
             <div className="unsereLeistungen__line" />
@@ -157,10 +134,7 @@ const UnsereLeistungen = () => {
           <h3 className="unsereLeistungen__h3">
             Mit welchen Kosten müssen Sie als Verkäufer rechnen?
           </h3>
-          <p
-            className="unsereLeistungen__p"
-            style={{ color: "white", fontWeight: "300" }}
-          >
+          <p className="unsereLeistungen__p">
             Wenn Sie Ihre Immobilie über uns verkaufen, fallen für Sie als
             Immobilieneigentümer keine Kosten an. Alle Erwerbsnebenkosten werden
             vom Käufer getragen. Die Kosten für die Unterlagenrecherche und die
@@ -168,10 +142,7 @@ const UnsereLeistungen = () => {
             Gebühren für eine eventuelle Löschung von eingetragenen
             Grundbuchlasten sind durch den Verkäufer zu tragen.
           </p>
-          <p
-            className="unsereLeistungen__p"
-            style={{ color: "white", fontWeight: "300" }}
-          >
+          <p className="unsereLeistungen__p">
             Ganz anders sieht es aus, wenn Sie den geplanten Immobilienverkauf
             durchführen würden. In diesem Falle müssten die Kosten für die
             Beschaffung der notwendigen Unterlagen (z.B. Grundbuch,
@@ -230,7 +201,7 @@ const UnsereLeistungen = () => {
           </h3>
           <p
             className="unsereLeistungen__p"
-            style={{ color: "white", fontWeight: "300", fontSize: "1.8rem" }}
+            // style={{ color: "white", fontWeight: "300", fontSize: "1.8rem" }}
           >
             Seit 1. Juni 2015 gilt das Bestellerprinzip. Wer den Makler bei
             einer Wohnungsvermietung beauftragt, muss ihn auch bezahlen. Diese
