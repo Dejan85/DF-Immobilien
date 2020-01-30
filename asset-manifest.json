@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/dfimmobilien/static/css/main.5074cd14.chunk.css",
-    "main.js": "/dfimmobilien/static/js/main.42fd28b2.chunk.js",
-    "main.js.map": "/dfimmobilien/static/js/main.42fd28b2.chunk.js.map",
+    "main.css": "/dfimmobilien/static/css/main.93e3c67a.chunk.css",
+    "main.js": "/dfimmobilien/static/js/main.76025c3e.chunk.js",
+    "main.js.map": "/dfimmobilien/static/js/main.76025c3e.chunk.js.map",
     "runtime-main.js": "/dfimmobilien/static/js/runtime-main.4b087879.js",
     "runtime-main.js.map": "/dfimmobilien/static/js/runtime-main.4b087879.js.map",
-    "static/js/2.418db6b5.chunk.js": "/dfimmobilien/static/js/2.418db6b5.chunk.js",
-    "static/js/2.418db6b5.chunk.js.map": "/dfimmobilien/static/js/2.418db6b5.chunk.js.map",
+    "static/js/2.3118aebc.chunk.js": "/dfimmobilien/static/js/2.3118aebc.chunk.js",
+    "static/js/2.3118aebc.chunk.js.map": "/dfimmobilien/static/js/2.3118aebc.chunk.js.map",
     "index.html": "/dfimmobilien/index.html",
-    "precache-manifest.d7a0b0bc0cf944cfc55312d9c58a5ed5.js": "/dfimmobilien/precache-manifest.d7a0b0bc0cf944cfc55312d9c58a5ed5.js",
+    "precache-manifest.879491b3d072fffae61d200dd2344a16.js": "/dfimmobilien/precache-manifest.879491b3d072fffae61d200dd2344a16.js",
     "service-worker.js": "/dfimmobilien/service-worker.js",
-    "static/css/main.5074cd14.chunk.css.map": "/dfimmobilien/static/css/main.5074cd14.chunk.css.map",
-    "static/js/2.418db6b5.chunk.js.LICENSE": "/dfimmobilien/static/js/2.418db6b5.chunk.js.LICENSE",
+    "static/css/main.93e3c67a.chunk.css.map": "/dfimmobilien/static/css/main.93e3c67a.chunk.css.map",
+    "static/js/2.3118aebc.chunk.js.LICENSE": "/dfimmobilien/static/js/2.3118aebc.chunk.js.LICENSE",
     "static/media/10.jpg": "/dfimmobilien/static/media/10.8097e81c.jpg",
     "static/media/11.jpg": "/dfimmobilien/static/media/11.39ef18c3.jpg",
     "static/media/12.jpg": "/dfimmobilien/static/media/12.20754c18.jpg",
@@ -26,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.4b087879.js",
-    "static/js/2.418db6b5.chunk.js",
-    "static/css/main.5074cd14.chunk.css",
-    "static/js/main.42fd28b2.chunk.js"
+    "static/js/2.3118aebc.chunk.js",
+    "static/css/main.93e3c67a.chunk.css",
+    "static/js/main.76025c3e.chunk.js"
   ]
 }
