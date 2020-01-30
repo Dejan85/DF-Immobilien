@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d4c43843ae2086786cccffc8dc4decf4",
+    "revision": "cf283963b5644c8819d9dec56c0dd8e5",
     "url": "/dfimmobilien/index.html"
   },
   {
-    "revision": "8d1a9bcb45ab95c89aa2",
-    "url": "/dfimmobilien/static/css/main.ac226abe.chunk.css"
+    "revision": "5dfa7f64a0ca0a44a349",
+    "url": "/dfimmobilien/static/css/main.3bfcadf5.chunk.css"
   },
   {
-    "revision": "11e361bdfcf7219307a6",
-    "url": "/dfimmobilien/static/js/2.b3305309.chunk.js"
+    "revision": "1c033037a6e0441bb5b8",
+    "url": "/dfimmobilien/static/js/2.418db6b5.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/dfimmobilien/static/js/2.b3305309.chunk.js.LICENSE"
+    "url": "/dfimmobilien/static/js/2.418db6b5.chunk.js.LICENSE"
   },
   {
-    "revision": "8d1a9bcb45ab95c89aa2",
-    "url": "/dfimmobilien/static/js/main.d7792080.chunk.js"
+    "revision": "5dfa7f64a0ca0a44a349",
+    "url": "/dfimmobilien/static/js/main.c4b97022.chunk.js"
   },
   {
     "revision": "3ffe7c47f0d37f3e5779",
