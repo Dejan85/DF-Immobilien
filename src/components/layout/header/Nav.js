@@ -82,7 +82,7 @@ const Nav = () => {
       <li className="header__nav--li">
         <Link
           activeClass="active"
-          to="/dfimmobilien"
+          to="kontakt"
           spy={true}
           smooth={"true"}
           duration={duration}

@@ -8,6 +8,8 @@ import Überuns from "./components/layout/überuns/Überuns";
 import UnsereLeistungen from "./components/layout/unsereleistungen/UnsereLeistungen";
 import Immobilienankauf from "./components/layout/immobilienankauf/Immobilienankauf";
 import Referenzen from "./components/layout/referenzen/Referenzen";
+import Kontakt from "./components/layout/kontakt/Kontakt";
+import Footer from "./components/layout/footer/Footer";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
             <UnsereLeistungen />
             <Immobilienankauf />
             <Referenzen />
+            <Kontakt />
+            <Footer />
           </Route>
         </Switch>
       </Router>
