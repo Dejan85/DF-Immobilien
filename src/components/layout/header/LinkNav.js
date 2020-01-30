@@ -10,12 +10,12 @@ const LinkNav = () => {
       <div className="header__content">
         <Logo />
         <ul className="header__nav">
-          <li className="header__nav--li">
+          <li className="header__nav--li" style={{ flex: 1 }}>
             <NavLink exact={true} activeClassName="active" to="/dfimmobilien">
               Home
             </NavLink>
           </li>
-          <li className="header__nav--li">
+          <li className="header__nav--li" style={{ flex: 1 }}>
             <NavLink
               exact={true}
               activeClassName="active"
@@ -24,7 +24,7 @@ const LinkNav = () => {
               Impressum
             </NavLink>
           </li>
-          <li className="header__nav--li">
+          <li className="header__nav--li" style={{ flex: 1 }}>
             <NavLink
               exact={true}
               activeClassName="active"
