@@ -12,6 +12,7 @@ import Kontakt from "./components/layout/kontakt/Kontakt";
 import Footer from "./components/layout/footer/Footer";
 import Impressum from "./components/layout/impressum/Impressum";
 import Datenschutz from "./components/layout/datenschutz/Datenschutz";
+import LinkNav from "./components/layout/header/LinkNav";
 
 function App() {
   return (
@@ -29,11 +30,11 @@ function App() {
             <Footer />
           </Route>
           <Route exact path="/dfimmobilien/impressum">
-            <Header />
+            <LinkNav />
             <Impressum />
           </Route>
           <Route exact path="/dfimmobilien/datenschutz">
-            <Header />
+            <LinkNav />
             <Datenschutz />
           </Route>
         </Switch>

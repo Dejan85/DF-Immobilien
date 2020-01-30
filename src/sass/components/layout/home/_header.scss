@@ -21,6 +21,7 @@
   &__nav {
     display: flex;
     width: 51%;
+    align-items: flex-end;
 
     &--li {
       position: relative;
