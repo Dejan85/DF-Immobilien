@@ -1,6 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
+
+// hooks
+import useResetScroll from "../../hooks/useResetScroll";
 
 const Impressum = () => {
+  const { resetScroll } = useResetScroll();
+
+  useEffect(() => {
+    resetScroll();
+  }, []);
+
   return (
     <div className="impressum">
       {/* <h1 className="impressum__h1">Impressum</h1> */}

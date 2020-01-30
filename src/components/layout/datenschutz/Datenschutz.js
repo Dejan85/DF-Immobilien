@@ -1,6 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
+
+// hooks
+import useResetScroll from "../../hooks/useResetScroll";
 
 const Datenschutz = () => {
+  const { resetScroll } = useResetScroll();
+
+  useEffect(() => {
+    resetScroll();
+  }, []);
+
   return (
     <div className="datenschutz">
       <h1 className="datenschutz__h1">1. Datenschutz auf einen Blick</h1>
@@ -413,7 +422,13 @@ const Datenschutz = () => {
         Google sowie die Verarbeitung dieser Daten durch Google verhindern,
         indem Sie das unter dem folgenden Link verfügbare Browser-Plugin
         herunterladen und installieren:
-        https://tools.google.com/dlpage/gaoptout?hl=de.
+        <a
+          className="datenschutz__a"
+          href="https://tools.google.com/dlpage/gaoptout?hl=de"
+        >
+          https://tools.google.com/dlpage/gaoptout?hl=de
+        </a>
+        .
       </p>
       <h2 className="datenschutz__h2">Widerspruch gegen Datenerfassung</h2>
       <p className="datenschutz__p">
@@ -425,7 +440,13 @@ const Datenschutz = () => {
       <p className="datenschutz__p">
         Mehr Informationen zum Umgang mit Nutzerdaten bei Google Analytics
         finden Sie in der Datenschutzerklärung von Google:
-        https://support.google.com/analytics/answer/6004245?hl=de.
+        <a
+          className="datenschutz__a"
+          href="https://support.google.com/analytics/answer/6004245?hl=de"
+        >
+          https://support.google.com/analytics/answer/6004245?hl=de
+        </a>
+        .
       </p>
       <h2 className="datenschutz__h2">
         Demografische Merkmale bei Google Analytics
@@ -448,7 +469,12 @@ const Datenschutz = () => {
         DoubleClick-Cookies, Android-Werbe-ID) verknüpft sind, werden nach 26
         Monaten anonymisiert bzw. gelöscht. Details hierzu ersehen Sie unter
         folgendem Link:
-        https://support.google.com/analytics/answer/7667196?hl=de
+        <a
+          className="datenschutz__a"
+          href="https://support.google.com/analytics/answer/7667196?hl=de"
+        >
+          https://support.google.com/analytics/answer/7667196?hl=de
+        </a>
       </p>
 
       <h1 className="datenschutz__h1">5. Plugins und Tools Google Web Fonts</h1>
@@ -472,8 +498,20 @@ const Datenschutz = () => {
       </p>
       <p className="datenschutz__p">
         Weitere Informationen zu Google Web Fonts finden Sie unter
-        https://developers.google.com/fonts/faq und in der Datenschutzerklärung
-        von Google: https://policies.google.com/privacy?hl=de.
+        <a
+          className="datenschutz__a"
+          href="https://developers.google.com/fonts/faq"
+        >
+          https://developers.google.com/fonts/faq
+        </a>
+        und in der Datenschutzerklärung von Google:{" "}
+        <a
+          className="datenschutz__a"
+          href="https://policies.google.com/privacy?hl=de"
+        >
+          https://policies.google.com/privacy?hl=de
+        </a>
+        .
       </p>
     </div>
   );
