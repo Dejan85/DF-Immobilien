@@ -9,7 +9,10 @@ const LinkNav = () => {
     <div className="header">
       <div className="header__content">
         <Logo />
-        <ul className="header__nav">
+        <ul
+          className="header__nav"
+          style={{ maxWidth: "50rem", width: "100%" }}
+        >
           <li className="header__nav--li" style={{ flex: 1 }}>
             <NavLink exact={true} activeClassName="active" to="/dfimmobilien">
               Home
