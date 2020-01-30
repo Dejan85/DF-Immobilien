@@ -23,7 +23,7 @@ const Impressum = () => {
 
       <h4 className="impressum__h4">Kontakt</h4>
       <p className="impressum__p">Telefon: 09131/611581</p>
-      <p className="impressum__p">E-Mail: info@df-immobilien.de</p>
+      <p className="impressum__p">E-Mail: info@df-immobilien-gmbh.de</p>
 
       <h4 className="impressum__h4">Registereintrag</h4>
       <p className="impressum__p">Eintragung im Handelsregister.</p>
