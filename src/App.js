@@ -25,7 +25,7 @@ function App() {
             <Überuns />
             <UnsereLeistungen />
             <Immobilienankauf />
-            <Referenzen />
+            {/* <Referenzen /> */}
             <Kontakt />
             <Footer />
           </Route>

@@ -86,7 +86,7 @@ const Nav = () => {
           spy={true}
           smooth={"true"}
           duration={duration}
-          offset={0}
+          offset={-100}
         >
           Kontakt
         </Link>
