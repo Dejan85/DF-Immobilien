@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dfimmobilien/static/css/main.1a23b9b9.chunk.css",
-    "main.js": "/dfimmobilien/static/js/main.6b09df00.chunk.js",
-    "main.js.map": "/dfimmobilien/static/js/main.6b09df00.chunk.js.map",
+    "main.css": "/dfimmobilien/static/css/main.13444bb0.chunk.css",
+    "main.js": "/dfimmobilien/static/js/main.439d994c.chunk.js",
+    "main.js.map": "/dfimmobilien/static/js/main.439d994c.chunk.js.map",
     "runtime-main.js": "/dfimmobilien/static/js/runtime-main.4b087879.js",
     "runtime-main.js.map": "/dfimmobilien/static/js/runtime-main.4b087879.js.map",
     "static/js/2.52f2137e.chunk.js": "/dfimmobilien/static/js/2.52f2137e.chunk.js",
     "static/js/2.52f2137e.chunk.js.map": "/dfimmobilien/static/js/2.52f2137e.chunk.js.map",
     "index.html": "/dfimmobilien/index.html",
-    "precache-manifest.1622941d3bc61556b64934a61d02a773.js": "/dfimmobilien/precache-manifest.1622941d3bc61556b64934a61d02a773.js",
+    "precache-manifest.b32e3d2225c7f0c237be6b27a990f941.js": "/dfimmobilien/precache-manifest.b32e3d2225c7f0c237be6b27a990f941.js",
     "service-worker.js": "/dfimmobilien/service-worker.js",
-    "static/css/main.1a23b9b9.chunk.css.map": "/dfimmobilien/static/css/main.1a23b9b9.chunk.css.map",
+    "static/css/main.13444bb0.chunk.css.map": "/dfimmobilien/static/css/main.13444bb0.chunk.css.map",
     "static/js/2.52f2137e.chunk.js.LICENSE": "/dfimmobilien/static/js/2.52f2137e.chunk.js.LICENSE",
     "static/media/10.jpg": "/dfimmobilien/static/media/10.8097e81c.jpg",
     "static/media/11.jpg": "/dfimmobilien/static/media/11.39ef18c3.jpg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.4b087879.js",
     "static/js/2.52f2137e.chunk.js",
-    "static/css/main.1a23b9b9.chunk.css",
-    "static/js/main.6b09df00.chunk.js"
+    "static/css/main.13444bb0.chunk.css",
+    "static/js/main.439d994c.chunk.js"
   ]
 }
