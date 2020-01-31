@@ -19,7 +19,9 @@ const Kontakt = () => {
       <div className="kontakt__content">
         <div className="kontakt__leftside">
           <h1 className="kontakt__h1">Kontakt</h1>
-
+          <div className="kontakt__holder">
+            <h2 className="kontakt__h2">DF Immobilien GmbH</h2>
+          </div>
           <div className="kontakt__holder">
             <h2 className="kontakt__h2">Adresse:</h2>
             <span className="kontakt__span">91058 Erlangen</span>

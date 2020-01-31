@@ -27,9 +27,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    // align-items: center;
     // background-color: $color-primary3;
     width: 50%;
+    padding: 0 0 0 40rem;
   }
 
   &__span {
@@ -38,7 +39,7 @@
 
   &__holder {
     display: flex;
-    align-items: center;
+    // align-items: center;
     padding: 1rem 0;
   }
 
