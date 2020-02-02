@@ -1,7 +1,34 @@
 .footer {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   background: lighten($color-primary3, 10%);
-  height: 40rem;
+  // height: 40rem;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+    max-width: 140rem;
+    width: 100%;
+    padding: 10rem 0;
+  }
+
+  &__sometext {
+    max-width: 30rem;
+    width: 100%;
+    // background: green;
+  }
+
+  &__links {
+    cursor: pointer;
+    // background-color: red;
+  }
+
+  &__impressum {
+    display: flex;
+    justify-content: center;
+  }
 
   &__ul {
     display: flex;
@@ -9,6 +36,20 @@
   }
 
   &__li {
+    display: flex;
     list-style-type: none;
+    padding: 0.5rem 0;
+
+    i {
+      padding: 0 1.2rem 0 0;
+    }
+  }
+
+  &__h1 {
+    padding: 0 0 2rem 0;
+  }
+
+  &__copyright {
+    padding: 1.3rem 0;
   }
 }
